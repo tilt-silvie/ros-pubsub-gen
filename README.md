@@ -7,8 +7,6 @@ ros-pubsub-gen generate ROS publisher and subscriber code from yaml file.
 - Python
 - Markdown (for documentation)
 
-C++ support will be append.
-
 ## Requirements
 - Python3
 - pip3
@@ -18,8 +16,8 @@ Python libraries
 
 ## Installation
 ```
-git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
 pip3 install click
+git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
 ```
 
 ## Usage example (generate python code)
@@ -54,8 +52,7 @@ pip3 install click
 
     ```
     python3 ros-pubsub-gen/ros-pubsub-gen.py your_yaml_file_path.yaml --python > pubsub.py
-
-    ** C++ code generation is not supported now. **
+    ```
 
 3. publisher/subscriber code is generated.
 
