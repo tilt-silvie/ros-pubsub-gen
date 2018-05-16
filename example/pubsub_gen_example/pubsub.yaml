@@ -1,0 +1,21 @@
+publishers:
+    pub_0:
+        topic_name: /pub_0
+        topic_type: std_msgs/String
+        description: This is description of pub_0
+
+    pub_1:
+        topic_name: pub_1
+        topic_type: std_msgs/Int32
+        description: This is description of pub_1
+
+subscribers:
+    sub_0:
+        topic_name: /sub_0
+        topic_type: std_msgs/String
+        description: This is description of sub_0
+
+    sub_1:
+        topic_name: sub_1
+        topic_type: std_msgs/Int32
+        description: This is description of sub_1
