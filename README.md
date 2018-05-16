@@ -50,9 +50,7 @@ git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
 
 2. Generate publisher/subscriber code.
 
-    ```
-    python3 ros-pubsub-gen/ros-pubsub-gen.py your_yaml_file_path.yaml --python > pubsub.py
-    ```
+    `python3 ros-pubsub-gen/ros-pubsub-gen.py your_yaml_file_path.yaml --python > pubsub.py`
 
 3. publisher/subscriber code is generated.
 
