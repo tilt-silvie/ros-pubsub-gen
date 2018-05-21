@@ -12,11 +12,12 @@ ros-pubsub-gen generate ROS publisher and subscriber code from yaml file.
 - pip3
 
 Python libraries
+- pyyaml
 - click
 
 ## Installation
 ```
-pip3 install click
+pip3 install click pyyaml
 git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
 ```
 
