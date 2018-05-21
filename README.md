@@ -16,7 +16,7 @@ Python libraries
 
 ## Installation
 ```
-pip3 install click
+pip3 install click pyyaml
 git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
 ```
 
