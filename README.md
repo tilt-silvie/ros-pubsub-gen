@@ -37,7 +37,7 @@ git clone https://github.com/tilt-silvie/ros-pubsub-gen.git
             topic_type: std_msgs/Int32
             description: This is description of pub_1
 
-     subscribers:
+    subscribers:
         sub_0:
             topic_name: /sub_0
             topic_type: std_msgs/String
