@@ -120,7 +120,7 @@ def gen_python_subscriber_definition(name, description):
 def gen_python_subscriber_instantiation(name, topic, msg_type_full, description):
     [msg_package, msg_type] = msg_type_full.split('/')
     instantiation = name + \
-        ' = rospy.Subscriber(\'' + name + '\', ' + \
+        ' = rospy.Subscriber(\'' + topic + '\', ' + \
         msg_type + ', callbacks[\'' + name + '\'])'
     return instantiation
 
